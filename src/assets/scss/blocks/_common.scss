@@ -1,0 +1,32 @@
+@import "../vars";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+
+  background-color: $background;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
